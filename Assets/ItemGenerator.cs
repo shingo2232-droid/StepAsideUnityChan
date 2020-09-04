@@ -9,6 +9,7 @@ public class ItemGenerator : MonoBehaviour
     public GameObject coinPrefab;
     //cornPrefabを入れる
     public GameObject conePrefab;
+
     //スタート地点
     private int startPos = -160;
     //ゴール地点

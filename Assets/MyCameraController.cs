@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class MyCameraController : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class MyCameraController : MonoBehaviour
     private GameObject unitychan;
     //Unityちゃんとカメラの距離
     private float difference;
+
+    
 
     // Use this for initialization
     void Start()
@@ -23,5 +26,8 @@ public class MyCameraController : MonoBehaviour
     {
         //Unityちゃんの位置に合わせてカメラの位置を移動
         this.transform.position = new Vector3(0, this.transform.position.y, this.unitychan.transform.position.z - difference);
+
+     
     }
+
 }
